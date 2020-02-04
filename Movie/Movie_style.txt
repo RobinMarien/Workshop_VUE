@@ -1,0 +1,108 @@
+#movie-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        height: 98vh;
+        margin: 0;
+        color: white;
+    }
+
+    h1{
+        font-size: 60px;
+        margin-bottom: 5px;
+    }
+
+    #tagline{
+        font-style:italic;
+        font-weight: bold;
+    }
+
+    #video-container{
+        position: relative;
+        width: 876px;
+        height: 0;
+        padding-bottom: 493px;
+        margin-top: 15px;
+    }
+
+    .video{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 876px;
+        height: 493px;
+    }
+
+    #button-container{
+        display:flex
+    }
+    .button{
+        margin: 40px 20px;
+        font-size: 25px;
+        color: #ddd;
+        background-color: transparent;
+        z-index: 1;
+        border-radius: 15px;
+        padding: 10px;
+        width: 170px;
+        flex:  1 1 auto;
+    }
+
+    #info-container{
+        width: 750px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 1.5em;
+        margin-bottom: 30px;
+    }
+
+    .info-block{
+        margin-bottom: 10px;
+    }
+
+    #castList{
+        list-style-type: none;
+        margin-top: -60px;
+        width: 750px;
+    }
+   
+
+    .actorImage{
+        height: 110px;
+        transform: translateY(50%);
+        margin-bottom: 10px;
+        margin-right: 50px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        filter: grayscale(50%);
+    }
+
+    li:last-child {
+        margin-bottom: 65px;
+    }
+    .text{
+        font-size: 18px;
+        letter-spacing: 1px;
+        color: white;
+    }
+
+    .bold{
+        font-weight: bold;
+    }
+
+    #backButton{
+        border: 5px solid #ddd;
+        color: #ddd;
+        padding: 0px;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        font-size: 80px;
+        line-height: 80px;
+        background-color: transparent;
+        position: fixed; 
+        bottom: 15px;
+        right: 15px;
+    }

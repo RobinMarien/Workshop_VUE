@@ -1,0 +1,7 @@
+#app {
+        background-color: #222;
+        margin: 0 auto;
+        overflow-x: hidden;
+        padding-bottom: 10px;
+        font-family: sans-serif;
+    }

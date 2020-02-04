@@ -1,0 +1,56 @@
+<template>
+    <div id="movie-container">
+        <h1></h1>
+        <h4 id="tagline"></h4>
+        <div id="video-container">
+            <iframe class="video"></iframe>
+        </div>
+        <div id="button-container">
+            <button class="button">Cast</button> 
+            <button class="button">Info</button> 
+        </div>
+        
+
+        <div id="cast-container">
+            <ul id="castList">
+                <li>
+
+                    <img class="actorImage">
+
+                    <span class="text">
+                        <span class="bold"></span> as <span class="bold"></span>
+                    </span>
+                </li>
+            </ul>
+            <br>
+        </div>
+
+        <div id="info-container">
+
+            <div class="info-block">
+                <span class="bold">Rating: </span>
+                <span class="text"></span>
+            </div>
+
+            <div class="info-block">
+                <span class="bold">Release Date: </span>
+                <span class="text"></span>
+            </div>
+
+            <div class="info-block">
+                <span class="bold">Overview: </span>
+                <span class="text"></span>
+            </div>
+            <div class="info-block">
+                <span class="bold">IMBD page: </span>
+                <a class="text" target="__blank"> Click me!</a>
+            </div>
+
+        </div>
+
+        <router-link :to="{name: 'Card'}">
+            <button id="backButton">&leftarrow;</button>
+        </router-link>
+        
+    </div>
+</template>

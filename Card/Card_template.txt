@@ -1,0 +1,31 @@
+<template>
+    <div class="container">
+        <div class="movies">
+
+            <input class="input" placeholder="Search..." type="text">
+            <div class="movie-container">
+
+                <router-link class="wrapper-card">
+
+                    <div class="text-container">
+                        <div class="title-container">
+                            <h3></h3>
+                        </div>
+                        <div class="description">
+                            <p class="overview"></p>
+                        </div>
+                        <div class="image-container">
+                            <img class="overview-img">
+                        </div>
+                    </div>
+
+                    <div class="poster-container">
+                        <img class="poster">
+                    </div>
+                
+                </router-link>
+            </div>
+        </div>
+    </div>
+
+</template>

@@ -1,0 +1,80 @@
+.movies {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 1400px;
+    }
+
+    .input{
+        margin-top: 15px;
+        background-color: #333;
+        color: white;
+        height: 30px;
+        border-radius: 18px;
+        text-align: right;
+        padding-right: 20px;
+        background-image: url('../../assets/search.png');
+        background-position: 10px 7px;
+        background-repeat: no-repeat;
+        background-size: 20px;
+
+    }
+
+    .wrapper-card {
+        display: flex;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 50px;
+        width: 100%;
+        max-width: 1200px;
+        margin: 30px;
+        -webkit-box-shadow: 10px 10px 50px -35px rgba(255, 172, 5, 1);
+        -moz-box-shadow: 10px 10px 50px -35px rgba(255, 172, 5, 1);
+        box-shadow: 10px 10px 50px -35px rgba(255, 172, 5, 1);
+    }
+
+    .overview {
+        width: 500px;
+        letter-spacing: 1px;
+        line-height: 1.5em;
+        max-height: 300px;
+        margin-bottom: 30px;
+        overflow: scroll;
+        scrollbar-width: none; /*hides the scrollbar in firefox*/
+    }
+
+    .overview::-webkit-scrollbar {
+        display: none; /*hides the scrollbar in chrome*/
+    }
+
+    .movie-container {
+        margin-right: 30px;
+    }
+
+
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 35px;
+    }
+
+    .image-container {
+        filter: grayscale(75%);
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    .poster-container {
+        padding: 40px;
+    }
+
+    .poster {
+        width: 100%;
+        min-width: 500px;
+    }
